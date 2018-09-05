@@ -1,0 +1,443 @@
+<html>
+	<head>
+		<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+		<link rel="icon" href="icon.ico" type="image/gif" sizes="32x32">
+		<title>
+			MuazamKamal
+		</title>
+		<style>
+			body{
+				background: #fff url(bg.jpg) center top repeat-y;
+
+			}
+			.social {
+				clear: left;
+				width: 100%;
+			}
+			.table {
+				display: table;
+				margin: 0 auto;
+			}
+			.social ul {
+				margin-top: 0px;
+				margin-right: 50px;
+				list-style-type:none;
+			}
+			.social ul li {
+				float: left;
+				background: url(socialmedia.png) left top no-repeat;
+				position: relative;
+				height: 66px;
+				margin-right: 10px;
+			}
+			.social ul li a {
+				display: block;
+				width: 66px;
+				height: 66px;
+			}
+			.social ul li.youtube {
+				height: 66px;
+				background-position: 0 0;
+				width: 66px;
+			}
+			.social ul li.youtube:hover {
+				background-position: 0 -66px;
+			}
+			.social ul li.twitter {
+				height: 66px;
+				background-position: -66px 0;
+				width: 66px;
+			}
+			.social ul li.twitter:hover {
+				background-position: -66px -66px;
+			}
+			.social ul li.instagram {
+				height: 66px;
+				background-position: -132px 0;
+				width: 66px;
+			}
+			.social ul li.instagram:hover {
+				background-position: -132px -66px;
+			}
+			.social ul li.deviantart {
+				height: 66px;
+				background-position: -198px 0;
+				width: 66px;
+			}
+			.social ul li.deviantart:hover {
+				background-position: -198px -66px;
+			}
+			.social ul li.tumblr {
+				height: 66px;
+				background-position: -264px 0;
+				width: 66px;
+			}
+			.social ul li.tumblr:hover {
+				background-position: -264px -66px;
+			}
+			.social ul li.mal {
+				height: 66px;
+				background-position: -330px 0;
+				width: 66px;
+			}
+			.social ul li.mal:hover {
+				background-position: -330px -66px;
+			}
+			.social ul li.steam {
+				height: 66px;
+				background-position: -396px 0;
+				width: 66px;
+			}
+			.social ul li.steam:hover {
+				background-position: -396px -66px;
+			}
+			.social ul li.soundcloud {
+				height: 66px;
+				background-position: -462px 0;
+				width: 66px;
+			}
+			.social ul li.soundcloud:hover {
+				background-position: -462px -66px;
+			}
+			.home {
+				clear: left;
+				width: 100%;
+				margin-top: 200px;
+			}
+			.home ul {
+				margin-top: 20px;
+				margin-right: 50px;
+				list-style-type:none;
+			}
+			.home ul li {
+				float: left;
+				background: url(nini.png) center top no-repeat;
+				position: relative;
+				width: auto;
+				height: auto;
+			}
+			.home ul li a {
+				display: block;
+				width: 846px;
+				height: 410px;
+			}
+			.home ul li.nini {
+				background-position: 0 0;
+			}
+			.home ul li.nini:hover {
+				background-position: 0 -460px;
+			}
+			.nini {
+				opacity: 0;
+				-webkit-animation-name: nini;
+				-webkit-animation-duration: 1.15s;
+				-webkit-animation-timing-function: ease;
+				-webkit-animation-delay: .5s;
+				-webkit-animation-fill-mode: forwards;
+				animation: nini 1.15s ease .5s forwards;
+			}
+			/*Chrome, Safari, Opera */
+			@-webkit-keyframes nini {
+
+				0% {
+					transform:translateY(-100%);
+					opacity: 0;
+				}
+				5% {
+					transform:translateY(-100%);
+					opacity: 0;
+				}
+				20% {
+					transform:translateY(0%);
+				}
+				30% {
+					transform:translateY(-18%)
+				}
+				40% {
+					translate:translateY(0%);
+				}
+				50% {
+    			transform:translateY(-15%);
+				}
+				60% {
+  				transform:translateY(0%);
+				}
+				70% {
+					transform:translateY(-10%);
+				}
+				80% {
+					transform:translateY(0%);
+				}
+				90% {
+					transform:translateY(-5%);
+				}
+				100% {
+  				transform:translateY(0%);
+  				opacity: 1;
+				}
+			}
+			/* Standard */
+			@keyframes nini {
+
+				0% {
+					transform:translateY(-100%);
+					opacity: 0;
+				}
+				5% {
+					transform:translateY(-100%);
+					opacity: 0;
+				}
+				20% {
+					transform:translateY(0%);
+				}
+				30% {
+					transform:translateY(-18%)
+				}
+				40% {
+					translate:translateY(0%);
+				}
+				50% {
+    			transform:translateY(-15%);
+				}
+				60% {
+  				transform:translateY(0%);
+				}
+				70% {
+					transform:translateY(-10%);
+				}
+				80% {
+					transform:translateY(0%);
+				}
+				90% {
+					transform:translateY(-5%);
+				}
+				100% {
+  				transform:translateY(0%);
+  				opacity: 1;
+				}
+			}
+			.youtube {
+				opacity: 0;
+				-webkit-animation: youtube 1s ease-out .65s forwards;
+				animation: youtube 1s ease-out .65s forwards;
+			}
+			@-webkit-keyframes youtube {
+				from {
+					bottom: -66px;
+					opacity: 0;
+				}
+				to {
+					bottom: 0px;
+					opacity: 1;
+				}
+			}
+			@keyframes youtube {
+				from {
+					bottom: -66px;
+					opacity: 0;
+				}
+				to {
+					bottom: 0px;
+					opacity: 1;
+				}
+			}
+			.twitter {
+				opacity: 0;
+				-webkit-animation: twitter 1s ease-out .8s forwards;
+				animation: twitter 1s ease-out .8s forwards;
+			}
+			@-webkit-keyframes twitter {
+				from {
+					bottom: -66px;
+					opacity: 0;
+				}
+				to {
+					bottom: 0px;
+					opacity: 1;
+				}
+			}
+			@keyframes twitter {
+				from {
+					bottom: -66px;
+					opacity: 0;
+				}
+				to {
+					bottom: 0px;
+					opacity: 1;
+				}
+			}
+			.instagram {
+				opacity: 0;
+				-webkit-animation: instagram 1s ease-out .95s forwards;
+				animation: instagram 1s ease-out .95s forwards;
+			}
+			@-webkit-keyframes instagram {
+				from {
+					bottom: -66px;
+					opacity: 0;
+				}
+				to {
+					bottom: 0px;
+					opacity: 1;
+				}
+			}
+			@keyframes instagram {
+				from {
+					bottom: -66px;
+					opacity: 0;
+				}
+				to {
+					bottom: 0px;
+					opacity: 1;
+				}
+			}
+			.deviantart {
+				opacity: 0;
+				-webkit-animation: deviantart 1s ease-out 1.1s forwards;
+				animation: deviantart 1s ease-out 1.1s forwards;
+			}
+			@-webkit-keyframes deviantart {
+				from {
+					bottom: -66px;
+					opacity: 0;
+				}
+				to {
+					bottom: 0px;
+					opacity: 1;
+				}
+			}
+				@keyframes deviantart {
+					from {
+						bottom: -66px;
+						opacity: 0;
+					}
+					to {
+						bottom: 0px;
+						opacity: 1;
+					}
+			}
+			.tumblr {
+				opacity: 0;
+				-webkit-animation: tumblr 1s ease-out 1.25s forwards;
+				animation: tumblr 1s ease-out 1.25s forwards;
+			}
+			@-webkit-keyframes tumblr {
+				from {
+					bottom: -66px;
+					opacity: 0;
+				}
+				to {
+					bottom: 0px;
+					opacity: 1;
+				}
+			}
+			@keyframes tumblr {
+				from {
+					bottom: -66px;
+					opacity: 0;
+				}
+				to {
+					bottom: 0px;
+					opacity: 1;
+				}
+			}
+			.mal {
+				opacity: 0;
+				-webkit-animation: mal 1s ease-out 1.4s forwards;
+				animation: mal 1s ease-out 1.4s forwards;
+			}
+			@-webkit-keyframes mal {
+				from {
+					bottom: -66px;
+					opacity: 0;
+				}
+				to {
+					bottom: 0px;
+					opacity: 1;
+				}
+			}
+			@keyframes mal {
+				from {
+					bottom: -66px;
+					opacity: 0;
+				}
+				to {
+					bottom: 0px;
+					opacity: 1;
+				}
+			}
+			.steam {
+				opacity: 0;
+				-webkit-animation: steam 1s ease-out 1.55s forwards;
+				animation: steam 1s ease-out 1.55s forwards;
+			}
+			@-webkit-keyframes steam {
+				from {
+					bottom: -66px;
+					opacity: 0;
+				}
+				to {
+					bottom: 0px;
+					opacity: 1;
+				}
+			}
+			@keyframes steam {
+				from {
+					bottom: -66px;
+					opacity: 0;
+				}
+				to {
+					bottom: 0px;
+					opacity: 1;
+				}
+			}
+			.soundcloud {
+				opacity: 0;
+				-webkit-animation: soundcloud 1s ease-out 1.7s forwards;
+				animation: soundcloud 1s ease-out 1.7s forwards;
+			}
+			@-webkit-keyframes soundcloud {
+				from {
+					bottom: -66px;
+					opacity: 0;
+				}
+				to {
+					bottom: 0px;
+					opacity: 1;
+				}
+			}
+			@keyframes soundcloud {
+				from {
+					bottom: -66px;
+					opacity: 0;
+				}
+				to {
+					bottom: 0px;
+					opacity: 1;
+				}
+			}
+		</style>
+	<body>
+		<div class='home'>
+		<div class='table'>
+			<ul>
+			<li class='nini'><a href='http://muazamkamal.com/'></a></li>
+		</div>
+		</div>
+		<div class='social'>
+		<div class='table'>
+			<ul>
+			<li class='youtube'><a href='https://youtube.com/MuazamKamal' target='_blank'></a></li>
+			<li class='twitter'><a href='https://twitter.com/muazamkamal' target='_blank'></a></li>
+			<li class='instagram'><a href='https://instagram.com/muazamkamal' target='_blank'></a></li>
+			<li class='deviantart'><a href='https://muazamkamal.deviantart.com' target='_blank'></a></li>
+			<li class='tumblr'><a href='http://muazamkamal.tumblr.com' target='_blank'></a></li>
+			<li class='mal'><a href='http://myanimelist.net/animelist/muazamkamal' target='_blank'></a></li>
+			<li class='steam'><a href='https://steamcommunity.com/id/muazamkamal/' target='_blank'></a></li>
+			<li class='soundcloud'><a href='https://soundcloud.com/muazamkamal' target='_blank'></a></li>
+			</ul>
+
+		</div>
+		</div>
+	</body>
+</html>
