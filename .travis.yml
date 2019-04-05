@@ -1,4 +1,4 @@
-// Using php as a language to avoid travis defaulting to ruby
+# Using php as a language to avoid travis defaulting to ruby
 language: php
 
 script:
