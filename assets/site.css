@@ -17966,7 +17966,7 @@ h3 a:focus {
 
 .collection-type-template-page #title-area .contact-info p a:hover,
 .collection-type-template-page #title-area .contact-info p a:focus {
-    color: #ff7bac
+    color: #197764
 }
 
 .collection-type-template-page #title-area .contact-info .site-location span:not(:last-of-type):after {
@@ -18762,7 +18762,7 @@ html.no-touch .pagination .right.hide {
 
 #main-navigation ul li a:hover,
 #main-navigation ul li a:focus {
-    color: #ff7bac
+    color: #197764
 }
 
 #main-navigation ul li:not(:last-child) {
@@ -18866,7 +18866,7 @@ html.no-touch .pagination .right.hide {
 
 #mobile-navigation ul li a:hover,
 #mobile-navigation ul li a:focus {
-    color: #ff7bac
+    color: #197764
 }
 
 #mobile-navigation ul li.active-link>a {
@@ -19147,7 +19147,7 @@ body:not(.mobile-style-available) #mobile-navigation {
 }
 
 .social ul li a:hover {
-    color: #ff7bac
+    color: #197764
 }
 
 @font-face {
