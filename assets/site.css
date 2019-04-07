@@ -18656,7 +18656,7 @@ html.no-touch .pagination .right.hide {
     right: 0;
     bottom: 0;
     left: 0;
-    position: relative;
+    position: absolute;
     z-index: -1;
     background-color: rgba(255, 255, 255, 0)
 }
