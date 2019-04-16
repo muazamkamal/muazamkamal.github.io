@@ -20025,17 +20025,6 @@ body:not(.collection-type-template-page).sqs-style-mode.info-page-layout-busines
         background-image: none
     }
 
-    body:not(.collection-type-template-page).mobile-background-image #outerWrapper,
-    body:not(.collection-type-template-page).collection-layout-default.info-page-layout-poster.mobile-background-image #outerWrapper {
-        background-image: url("https://static1.squarespace.com/static/ta/507c1fdb84ae362b5e7be351/2118/assets/alt-bg-image.jpg");
-        background-position: top left;
-        background-image: url("https://static.squarespace.com/static/53c827a3e4b00a63fc062eb5/t/53e162e7e4b0354da305ca8b/1407279847916/DSC07168.jpg");
-        background-position: center center;
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat
-    }
-
     body:not(.collection-type-template-page) #innerWrapper,
     body:not(.collection-type-template-page).collection-layout-default.info-page-layout-poster #innerWrapper {
         margin-left: 0;
