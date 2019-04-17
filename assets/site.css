@@ -20299,13 +20299,13 @@ body:not(.collection-type-template-page).sqs-style-mode.info-page-layout-busines
     font-style: normal
 }
 
-.bg-image {
+/* .bg-image {
     background-image: url("https://static1.squarespace.com/static/561f85f1e4b0f197c394a579/t/561f9334e4b05fb7f593f585/1444909876944/P8290058.jpg");
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat
-}
+} */
 
 .site-title-home {
     font-family: "Lato";
